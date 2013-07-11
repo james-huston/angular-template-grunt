@@ -101,7 +101,7 @@ To install your module in an application, you need to manually add a line to the
 		"version": "0.2.0",
 		"dependencies": {
 			"angular": "latest",
-			"angular-template-grunt": "http://stash.redventures.net/scm/bowm/angular-template-grunt.git"
+			"angular-template-grunt": "git@github.com:james-huston/angular-template-grunt.git"
 		}
 	}
 	
@@ -112,7 +112,7 @@ This assumes that the angular-template-grunt repo is publically readable. If it 
 		"version": "0.2.0",
 		"dependencies": {
 			"angular": "latest",
-			"angular-template-grunt": "ssh://git@stash.redventures.net/bowm/angular-template-grunt.git"
+			"angular-template-grunt": "git@github.com:james-huston/angular-template-grunt.git"
 		}
 	}
 
@@ -123,7 +123,7 @@ If you want to install a specific/approximate version or tag you can do so by ad
 		"version": "0.2.0",
 		"dependencies": {
 			"angular": "latest",
-			"angular-template-grunt": "ssh://git@stash.redventures.net/bowm/angular-template-grunt.git#>0.3.0"
+			"angular-template-grunt": "git@github.com:james-huston/angular-template-grunt.git#>0.3.0"
 		}
 	}
 
@@ -134,6 +134,6 @@ And finally if you want exactly version 0.3.0:
 		"version": "0.2.0",
 		"dependencies": {
 			"angular": "latest",
-			"angular-template-grunt": "ssh://git@stash.redventures.net/bowm/angular-template-grunt.git#0.3.0"
+			"angular-template-grunt": "git@github.com:james-huston/angular-template-grunt.git#0.3.0"
 		}
 	}
