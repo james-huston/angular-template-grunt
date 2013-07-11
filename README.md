@@ -1,6 +1,11 @@
 # angular-template-grunt
 This is a template for building reusable angular modules that include a grunt build process.
 
+## Before you start
+Note that you need to have Grunt, Karma, and Bower installed globally before you get started with any of this fun stuff.
+
+	sudo npm install -g grunt-cli karma karma-ng-scenario karma-jasmine bower
+
 ## Creating your repo based on this template
 To fire up this template, create your own new empty repo and then run the following command from withing it's root directory.
 
