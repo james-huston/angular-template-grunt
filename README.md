@@ -9,8 +9,8 @@ Note that you need to have Grunt, Karma, and Bower installed globally before you
 ## Creating your repo based on this template
 To fire up this template, create your own new empty repo and then run the following command from withing it's root directory.
 
-	curl -o angular-template-grunt.zip \
-	'http://stash.redventures.net/plugins/servlet/archive/projects/BOWM/repos/angular-template-grunt?at=refs%2Fheads%2Fmaster' \
+	wget -O angular-template-grunt.zip \
+	'https://github.com/james-huston/angular-template-grunt/archive/master.zip' \
 	&& unzip angular-template-grunt.zip && rm -f angular-template-grunt.zip
 
 
