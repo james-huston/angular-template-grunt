@@ -63,7 +63,7 @@ The key here is the the single quotes around the name of the template that tell 
 #### Unit Tests
 Unit tests live in the tests/unit folder. They should have the same name as the file in src/ that they are testing except that they should end in .spec.js instead of .js. For example if your module file is src/superapp.js then your unit test file should be tests/unit/superapp.spec.js.
 
-The library used for validating tests is [Jasmine](http://pivotal.github.io/jasmine/) so all of the functionality available in the Jasmine testing environment should be available to you.
+The library used for validating tests is [Jasmine](https://jasmine.github.io/) so all of the functionality available in the Jasmine testing environment should be available to you.
 
 #### EndToEnd (e2e) Tests
 EndToEnd (e2e) tests are used to test your module in a full browser. This allows you to emulate user actions in various browsers to verify that it acts like it should.
